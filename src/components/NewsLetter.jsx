@@ -2,6 +2,7 @@ import React from 'react'
 
 const NewsLetter = () => {
 
+    // Function for the subscribtion email 
     const onSubmitHandler = (event) => {
         event.preventDefault();
     }
