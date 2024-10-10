@@ -70,7 +70,25 @@ const Product = () => {
               }
             </div>
           </div>
+          <button className='bg-black text-white px-8 py-3 text-sm active:bg-gray-700'>ADD TO CART</button>
+          <hr className='mt-8 sm:w-4/5'/>
+          <div className='text-sm text-gray-500 mt-5 flex flex-col gap-1'>
+              <p>100% Original product.</p>
+              <p>Cash on delivery is available on this product.</p>
+              <p>Easy return and exchange policy within 7 days.</p>
+          </div>
         </div>
+      </div>
+      {/* --------------- Description and Review Section ------------ */}
+      <div className='mt-20'>
+              <div className='flex'>
+                <b className='border px-5 py-3 text-sm'>Description</b>
+                <p className='border px-5 py-3 text-sm'>Reviews (122)</p>
+              </div>
+              <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur et mollitia sunt autem deleniti odio perspiciatis voluptate, aliquam doloribus. Molestias aperiam sapiente aut ab praesentium qui provident amet vitae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere est iusto officiis, dicta architecto qui similique reprehenderit blanditiis impedit excepturi, tempora optio. Quas, quo veritatis quam nobis perspiciatis quibusdam.</p>
+              </div>
       </div>
     </div>
   ) : <div className='opacity-0'></div>
